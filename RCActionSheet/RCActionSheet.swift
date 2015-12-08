@@ -116,7 +116,7 @@ class RCActionSheet: UIView {
         let cancelButton = UIButton()
         cancelButton.tag = buttonTitles.count
         cancelButton.backgroundColor = UIColor.whiteColor()
-        cancelButton.setTitle("取消", forState: .Normal)
+        cancelButton.setTitle("Cancel", forState: .Normal)
         cancelButton.titleLabel?.font = UIFont.systemFontOfSize(16.0)
         cancelButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
         cancelButton.setBackgroundImage(UIImage(named: "bgImage_HL"), forState: .Highlighted)
